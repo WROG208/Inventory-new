@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Item</title>
+    <link rel="stylesheet" href="extra/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="extra/add_item.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4 text-primary">Add New Item</h1>
+        <form action="/add_item" method="post" class="row g-3">
+            <div class="col-md-6">
+                <label for="partdescription" class="form-label">Part Description:</label>
+                <input type="text" name="partdescription" id="partdescription" class="form-control" placeholder="Enter Part Description" required>
+            </div>
+
+            <div class="col-md-6">
+                <label for="supplier" class="form-label">Supplier:</label>
+                <input type="text" name="supplier" id="supplier" class="form-control" placeholder="Enter Supplier">
+            </div>
+
+            <div class="col-md-6">
+                <label for="partnumber" class="form-label">Part # OEM:</label>
+                <input type="text" name="partnumber" id="partnumber" class="form-control" placeholder="Enter Part # OEM">
+            </div>
+
+            <div class="col-md-6">
+                <label for="machine" class="form-label">Machine:</label>
+                <input type="text" name="machine" id="machine" class="form-control" placeholder="Enter Machine">
+            </div>
+
+            <div class="col-md-6">
+                <label for="location" class="form-label">Location Shelf and Bin:</label>
+                <input type="text" name="location" id="location" class="form-control" placeholder="Enter Location Shelf and Bin">
+            </div>
+
+            <div class="col-md-6">
+                <label for="alternatepartnumber" class="form-label">Alternate Part Number:</label>
+                <input type="text" name="alternatepartnumber" id="alternatepartnumber" class="form-control" placeholder="Enter Alternate Part Number">
+            </div>
+
+            <div class="col-md-6">
+                <label for="alternatemanufacturer" class="form-label">Alternate Manufacturer:</label>
+                <input type="text" name="alternatemanufacturer" id="alternatemanufacturer" class="form-control" placeholder="Enter Alternate Manufacturer">
+            </div>
+
+            <div class="col-md-6">
+                <label for="notes" class="form-label">Notes:</label>
+                <input type="text" name="notes" id="notes" class="form-control" placeholder="Enter Notes">
+            </div>
+<br>
+            <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> Add Item
+                </button>
+            </div>
+        </form>
+
+        <div class="text-center mt-3">
+            <a href="index.html" class="btn btn-success"><i class="bi bi-arrow-left"></i> Back to Search</a>
+        </div>
+    </div>
+
+    <footer>
+        <p class="mb-0">&copy; 2025 Designed by WROG208 / N4ASS Alex Dominguez <i class="bi bi-radioactive"></i></p>
+    </footer>
+
+    <script src="extra/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

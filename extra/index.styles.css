@@ -1,0 +1,77 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Main content container */
+#main-content {
+    flex: 1;
+    text-align: center;
+}
+
+/* Header styles */
+h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+/* Search box styling */
+.search-box {
+    max-width: 600px;
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #343a40;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Add New Part button */
+.btn-sm {
+    padding: 8px 16px;
+    font-size: 1rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #0a0a0a;
+    color: #faf9f9;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+/* Responsive padding for small screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+}
